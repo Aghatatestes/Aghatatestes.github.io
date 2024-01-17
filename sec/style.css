@@ -4,16 +4,106 @@
 }
 
 body {
-   background-color: rgb(224, 224, 224);
+   background-color: rgb(238, 238, 238);
+   
 }
-
 
 .logo {
-    width: 70px;
-    margin: 10px;
-    border-radius: 50px;
+    width: 100px;
 }
 
+li {
+    list-style-type: none;
+}
 
+ul li a {
+    text-decoration: none;
+    color: black;
+}
 
+ul li a:hover {
+    background-color: rgb(221, 220, 220);
+}
 
+nav ul li {
+    position: relative;
+    float: left;
+}
+
+/*menu horizontal principal*/
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+/* sub-menu*/
+nav ul li ul {
+    display: none;
+    position: absolute;
+    padding-top: 2px;
+}
+
+/* Itens do submenu */
+nav ul li ul a {
+    width: 110px;
+}
+
+nav ul li ul li:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+/* pulo do gato fazer aparecer o menu*/
+nav li:hover ul {
+    display: block;
+}
+
+div {
+    float: right;
+}
+
+.reader {
+    background-color: rgb(187, 186, 186);
+    width: 100%;
+    margin: 500px;
+    margin-bottom: 0;
+}
+h1 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.menu-cafe {
+    background-color: rgba(219, 209, 209, 0.315);
+    width: 100%;    
+}
+
+.menu-cafe p {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.menu-cafe ul li a  {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section {
+    display: block;
+    width: 70%;
+}
+
+.section h2, h3, p {
+    margin: 10px;
+}
+
+.footer {
+    background-color: rgba(248, 246, 246, 0.555);
+    width: 70%;
+    margin: 10px;
+}
+
+.imagem-cafe {
+    width: 20%;
+    float: right;
+    margin-top: 40px;
+}
